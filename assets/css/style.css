@@ -1,0 +1,61 @@
+body{
+    font-family:'Raleway',Arial, Verdana, sans-serif;
+    background-image: url('../img/pajaros.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height:100vh;
+    overflow-y:hidden;
+}
+.titillium{
+    font-family:'Titillium Web',Arial, Verdana, sans-serif;
+    font-size:3.5rem;
+}
+#my-col{
+    padding:50px 30px;
+    background-color:rgba(255,193,7,0.9);
+    height:100vh;
+}
+.btn-brand{
+    border-radius: 60px;
+    width: 60px;
+    height: 60px;
+    padding: 13px;
+    background-color:#212529;
+    color:#fff;
+}
+.btn-brand:hover{
+    background-color:#383838;
+    color:#fff;
+}
+.social-buttons{
+    text-align:center;
+}
+/* Media-queries */
+/* SM */
+@media (min-width: 576px) {
+    .social-buttons{
+        text-align:left;
+    }
+}
+/* MD */
+@media (min-width: 768px) { 
+ 
+}
+/* LG */
+@media (min-width: 992px) { 
+    
+}
+/* XL */
+@media (min-width: 1200px) { 
+    #my-col{
+        margin-top:-30%;
+        padding-top:40%;
+        height:150vh;
+        transform: rotate(-15deg);
+    }
+    #my-col > *{
+        transform: rotate(15deg);
+    }
+}
